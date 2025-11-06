@@ -107,6 +107,7 @@ def log(message, last_time, filename):
 def read_e57(file_name):
     # read the documentation at https://github.com/davidcaron/pye57
     e57_array = e57.read_points(file_name)
+    print(f'E57 file',e57_array)
     return e57_array
 
 
